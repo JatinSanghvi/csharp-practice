@@ -66,6 +66,12 @@
     <Compile Include="Source\ClassDesign\CallCenter\Employees\Supervisor.cs" />
     <Compile Include="Source\ClassDesign\CallCenter\Employees\Operator.cs" />
     <Compile Include="Source\ClassDesign\CallCenter\Employees\Employee.cs" />
+    <Compile Include="Source\ClassDesign\ParkingLot\ParkingLevel.cs" />
+    <Compile Include="Source\ClassDesign\ParkingLot\ParkingLot.cs" />
+    <Compile Include="Source\ClassDesign\ParkingLot\ParkingRow.cs" />
+    <Compile Include="Source\ClassDesign\ParkingLot\ParkingSpot.cs" />
+    <Compile Include="Source\ClassDesign\ParkingLot\SpotType.cs" />
+    <Compile Include="Source\ClassDesign\ParkingLot\VehicleType.cs" />
     <Compile Include="Source\DataStructures\Array\RearrangeArrayWithSwapZero.cs" />
     <Compile Include="Source\DataStructures\Custom\ConstantTimeRandomSelection.cs" />
     <Compile Include="Source\DataStructures\Deque\Deque.cs" />
@@ -108,6 +114,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Source\ClassDesign\CallCenter\README.md" />
+    <None Include="Source\ClassDesign\ParkingLot\README.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
