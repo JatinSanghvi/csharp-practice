@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CsharpPractice</RootNamespace>
     <AssemblyName>CsharpPractice</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -57,6 +58,14 @@
     <Compile Include="Source\Algorithms\Sorting\QuickSort.cs" />
     <Compile Include="Source\Algorithms\Sorting\TestSorts.cs" />
     <Compile Include="Source\Algorithms\Sorting\ThreeWaySort.cs" />
+    <Compile Include="Source\ClassDesign\CallCenter\Rank.cs" />
+    <Compile Include="Source\ClassDesign\CallCenter\Call.cs" />
+    <Compile Include="Source\ClassDesign\CallCenter\CallCenter.cs" />
+    <Compile Include="Source\ClassDesign\CallCenter\Customer.cs" />
+    <Compile Include="Source\ClassDesign\CallCenter\Employees\Director.cs" />
+    <Compile Include="Source\ClassDesign\CallCenter\Employees\Supervisor.cs" />
+    <Compile Include="Source\ClassDesign\CallCenter\Employees\Operator.cs" />
+    <Compile Include="Source\ClassDesign\CallCenter\Employees\Employee.cs" />
     <Compile Include="Source\DataStructures\Array\RearrangeArrayWithSwapZero.cs" />
     <Compile Include="Source\DataStructures\Custom\ConstantTimeRandomSelection.cs" />
     <Compile Include="Source\DataStructures\Deque\Deque.cs" />
@@ -98,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Source\ClassDesign\CallCenter\README.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
